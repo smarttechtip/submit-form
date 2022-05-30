@@ -1,0 +1,46 @@
+*{
+box-sizing: border-box;
+font-family: arial;
+font-size: 15px;
+}
+body{
+    background-image:url(pwned.png);
+    background-size: 4100px;
+    background-repeat: no-repeat;
+
+}
+.form{
+    width: 600px;
+    position: relative;
+    margin:auto;
+    top: 100px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
+[type="text"], select, [type="number"]{
+    display:inline-block;
+    width: 100%;
+    margin: 10px;
+    padding: 20px 10px;
+    font-size: 16px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+
+}
+[type="submit"]{
+    width: 100%;
+    margin: 10px;
+    padding: 20px 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid rgb(141, 0, 0);
+}
+[type="submit"]:hover{
+    background-color:rgb(141, 0, 0)
+}
